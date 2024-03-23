@@ -138,6 +138,14 @@ header {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-image.jpg);
+
+  /*background-repeat: no-repeat;*/
+  background-position: center;
 }
 .hero-title {
   font-weight: 700;
@@ -259,6 +267,33 @@ header {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.team-contact-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+}
+
+.team-contact-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  /*display: inline-block;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team-contact-link:hover,
+.team-contact-link:focus {
+  font-size: 12px;
+  background-color: #31d0aa;
+}
+
+.team-contact-icon {
+  fill: transparent;
+  /*background-color: #404bbf;*/
 }
 
 /*-------PORTFOLIO-------*/
