@@ -494,6 +494,7 @@ header {
   color: #f4f4fd;
   background-color: #4d5ae5;
   padding: 40px 32px;
+  height: 100%;
   /*padding: 40px 32px 164px 32px;*/
   transform: translateY(100%);
   transition-property: transform;
